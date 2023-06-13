@@ -78,6 +78,7 @@ a {
     border: none;
     border-radius: 8px;
     padding: 8px 16px;
+    color: #f9faf8;
 }
 
 .testimonial img {
@@ -165,4 +166,11 @@ a {
     border-radius: 8px;
     padding: 8px 32px;
     color: #f9faf8;
+}
+
+.footer {
+    background-color: #1f2937;
+    padding: 48px;
+    color: #f9faf8;
+    text-align: center;
 }
