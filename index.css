@@ -105,9 +105,8 @@ a {
 .info {
     display: flex;
     gap: 24px;
-    /* width: 70%; */
-    flex-wrap: wrap;
-    /* overflow-x: scroll; */
+    max-width: 70%;
+    overflow-x: scroll;
 }
 
 .testimonial {
