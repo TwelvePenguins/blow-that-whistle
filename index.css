@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+.nav-bar {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px;
+}
+
+.header {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 500;
+}
+
+.header-link {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.section-1 {
+    background-color: #1f2937;
+    display: flex;
+    padding: 48px;
+    gap: 36px;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    width: 400px;
+    flex: auto;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.opening {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    max-width: 30%; 
+}
+
+.subtitle {
+    color: gray;
+    text-align: center;
+    width: 400px;
+}
+
+.opening button {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+
+.testimonial img {
+    width: 200px;
+    border-radius: 8px;
+    border: 2px #3882f6 solid;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 48px;
+    gap: 24px;
+}
+
+.gallery-header {
+    font-size: 36px;
+    font-weight: 700; 
+    color: #1f2937;
+}
+
+.info {
+    display: flex;
+    gap: 24px;
+    /* width: 70%; */
+    flex-wrap: wrap;
+    /* overflow-x: scroll; */
+}
+
+.testimonial {
+    width: 200px;
+}
+
+.testimonial .header-link {
+    color: #1f2937;
+    text-align: center;
+}
+
+.section-3 {
+    background-color: #E5E7EB;
+    padding: 108px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    flex: auto;
+}
+
+.attribution {
+    font-weight: 600;
+    text-align: end;
+    font-size: 24px;
+}
+
+.section-4 {
+    padding: 48px;
+}
+
+.call-to-action {
+    display: flex;
+    background-color: #3882f6;
+    padding: 24px 56px;
+    gap: 56px;
+    border-radius: 16px;
+    justify-content: space-between;
+}
+
+.call-to-action-header {
+    font-size: 24px;
+    font-weight: 600; 
+    color: #f9faf8;
+}
+
+.call-to-action button {
+    background-color: transparent;
+    border-color: white;
+    border-radius: 8px;
+    padding: 8px 32px;
+    color: #f9faf8;
+}
