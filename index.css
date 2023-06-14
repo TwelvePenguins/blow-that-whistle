@@ -19,13 +19,19 @@
 }
 
 .header-link {
+    font-size: min(18px, 3vmin);
+    color: #E5E7EB;
+}
+
+.paragraph-text {
     font-size: 18px;
     color: #E5E7EB;
 }
 
 .links {
     display: flex;
-    gap: 30px;
+    gap: 2vw;
+    align-items: center;
 }
 
 a {
@@ -40,10 +46,12 @@ a {
     gap: 36px;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .image img {
-    width: 400px;
+    width: 100%;
+    max-width: 350px;
     flex: auto;
 }
 
@@ -52,6 +60,7 @@ a {
     flex-direction: column;
     align-items: center;
     gap: 16px;
+    flex-wrap: wrap;
 }
 
 .title {
@@ -64,13 +73,13 @@ a {
     display: flex;
     flex-direction: column;
     gap: 18px;
-    max-width: 30%; 
+    max-width: 50vmin; 
 }
 
 .subtitle {
     color: gray;
     text-align: center;
-    width: 400px;
+    width: 350px;
 }
 
 .opening button {
@@ -113,14 +122,14 @@ a {
     width: 200px;
 }
 
-.testimonial .header-link {
+.testimonial .paragraph-text {
     color: #1f2937;
     text-align: center;
 }
 
 .section-3 {
     background-color: #E5E7EB;
-    padding: 108px;
+    padding: 10vmin;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -128,7 +137,7 @@ a {
 }
 
 .quote {
-    font-size: 36px;
+    font-size: 5vmin;
     font-weight: 300;
     font-style: italic;
     color: #1f2937;
@@ -139,7 +148,7 @@ a {
 .attribution {
     font-weight: 600;
     text-align: end;
-    font-size: 24px;
+    font-size: 4vmin;
     max-width: 80%;
 }
 
@@ -153,16 +162,19 @@ a {
     display: flex;
     background-color: #3882f6;
     padding: 24px 56px;
-    gap: 56px;
+    gap: 1em;
     border-radius: 16px;
     justify-content: space-between;
     max-width: 80%;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .call-to-action-header {
     font-size: 24px;
     font-weight: 600; 
     color: #f9faf8;
+    margin-bottom: 8px;
 }
 
 .call-to-action button {
@@ -171,6 +183,7 @@ a {
     border-radius: 8px;
     padding: 8px 32px;
     color: #f9faf8;
+    height: 60px;
 }
 
 .footer {
