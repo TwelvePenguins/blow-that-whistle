@@ -137,7 +137,7 @@ a {
 }
 
 .quote {
-    font-size: 5vmin;
+    font-size: min(36px,5vmin);
     font-weight: 300;
     font-style: italic;
     color: #1f2937;
@@ -148,7 +148,7 @@ a {
 .attribution {
     font-weight: 600;
     text-align: end;
-    font-size: 4vmin;
+    font-size: min(24px,4vmin);
     max-width: 80%;
 }
 
